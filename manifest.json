@@ -1,18 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "[EXTENSION-NAME]",
+    "name": "Hello Codeland",
     "version": "1.0",
 
-    "description": "[A USEFUL DESCRIPTION]",
+    "description": "Our First Browser Extension!",
 
     "icons": {
-        "48": "[URL TO AN ICON]"
+        "48": ""
     },
 
     "content_scripts": [
         {
-        "matches": ["URL MATCHER"],
-        "js": ["RELATIVE PATH TO A JS FILE"]
+        "matches": ["*://*.codelandconf.com/*"],
+        "js": ["hello.js"]
         }
     ]
 }

@@ -5,10 +5,6 @@
 
     "description": "Our First Browser Extension!",
 
-    "icons": {
-        "48": ""
-    },
-
     "content_scripts": [
         {
         "matches": ["*://*.codelandconf.com/*"],

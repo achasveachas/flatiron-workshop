@@ -7,7 +7,7 @@
 
     "content_scripts": [
         {
-        "matches": ["*://*.codelandconf.com/*"],
+        "matches": ["*://*.twitter.com/*"],
         "js": ["first-extension.js"]
         }
     ]

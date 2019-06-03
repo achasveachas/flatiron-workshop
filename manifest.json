@@ -7,8 +7,9 @@
 
     "content_scripts": [
         {
-        "matches": ["*://*.codelandconf.com/*"],
+        "matches": ["*://*.linkedin.com/*"],
         "js": ["first-extension.js"]
         }
-    ]
+    ],
+    "web_accessible_resources": ["images/kitten.jpg"]
 }

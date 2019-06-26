@@ -1,19 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "[EXTENSION-NAME]",
+    "name": "<EXTENSION-NAME>",
     "version": "1.0",
 
-    "description": "[A USEFUL DESCRIPTION]",
+    "description": "<A USEFUL DESCRIPTION>",
 
     "icons": {
-        "48": "[URL TO AN ICON]",
-        "96": "[URL TO AN ICON]"
+        "48": "<URL TO AN ICON>",
+        "96": "<URL TO AN ICON>"
     },
 
     "content_scripts": [
         {
-        "matches": ["URL MATCHER"],
-        "js": ["RELATIVE PATH TO A JS FILE"]
+        "matches": ["<URL MATCHER>"],
+        "js": ["<RELATIVE PATH TO A JS FILE>"]
         }
     ]
 }

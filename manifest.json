@@ -6,7 +6,8 @@
     "description": "[A USEFUL DESCRIPTION]",
 
     "icons": {
-        "48": "[URL TO AN ICON]"
+        "48": "[URL TO AN ICON]",
+        "96": "[URL TO AN ICON]"
     },
 
     "content_scripts": [

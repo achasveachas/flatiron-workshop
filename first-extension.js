@@ -1,4 +1,4 @@
-const callback = function(mutationsList, observer) {
+const imageSubstituter = function(mutationsList, observer) {
     let images = document.querySelectorAll('img[class*="EntityPhoto"]')
 
     for (i = 0; i < images.length; i++) {
@@ -10,7 +10,7 @@ const callback = function(mutationsList, observer) {
 const config = { childList: true, subtree: true }
 
 // Create an observer instance linked to the callback function
-const observer = new MutationObserver(callback)
+const observer = new MutationObserver(imageSubstituter)
 
 // Start observing the target node for configured mutations
 observer.observe(document.body, config)
